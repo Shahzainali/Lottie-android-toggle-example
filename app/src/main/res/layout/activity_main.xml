@@ -14,7 +14,7 @@
         android:layout_height="200dp"
         app:lottie_fileName="ts.json"
         app:lottie_loop="false"
-        android:onClick="zain"
+        android:onClick="onClick"
         app:lottie_autoPlay="false"/>
 
 </LinearLayout>

@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
         lav.addAnimatorUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
-                Log.d("zain2", String.valueOf(animation.getAnimatedValue()));
+                Log.d("LottieLogs", String.valueOf(animation.getAnimatedValue()));
                 String s = String.valueOf(animation.getAnimatedValue());
                 if((Double.valueOf(s)-0.35)>0.1){
                    if(ischecked) {
@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void zain(View v){
+    public void onClick(View v){
         if(!lav.isAnimating()) {
             lav.resumeAnimation();
             ischecked = !ischecked;
